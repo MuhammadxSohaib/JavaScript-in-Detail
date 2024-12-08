@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h2>Javascript string methods</h2>
+
+<p>Search a string for "doing", display the position of the match and replace the word "how are with "how are you' and display</p>
+
+<p id="search_result"></p>
+<p id="replace_result"></p>
+<p id="string_result"></p>
+
+<script>
+    var str = "hello hru doing"
+    var search_position = str.search("doing")
+var txt = str.replace("hru" , "how are you")
+var x =1/2111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111;
+var y=21111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 * 11111111111111111111111;
+document.getElementById("search_result").innerHTML =search_position;
+document.getElementById("replace_result").innerHTML = txt;
+document.getElementById("string_result").innerHTML = String(x) + String(y)
+</script>
+<h2>Javascript error handling</h2>
+
+<p>This example demonstrates how to use <b>catch</b> to display an error.</p>
+<p id="error_message"></p>
+<script>
+    try {
+        addalert("welcome guest!");
+
+    }
+    catch(err) {
+        document.getElementById("error_message").innerHTML = err.message;
+    }
+</script>
+<h2>Javascript Arrow Function</h2>
+<p>This example shows an arrow function</p>
+<p id="result"></p>
+<script>
+    add = (a,b) => a+b;
+    document.getElementById("result").innerHTML= add(9.1 , 36718591956135613956);
+
+</script>
+
+<p id="result2"></p>
+<script> 
+    multiply = (a,b) => a * b;
+    document.getElementById("result2").innerHTML= multiply(98 , 12);
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
